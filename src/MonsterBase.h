@@ -117,7 +117,7 @@ namespace monsterB {
             /**
              * @brief (Virtual) Function for managing the state the monster entity is in, allowing it to be used by child classes.
              * 
-             * This function returns what state the monster is in currently, as a string.
+             * This function returns what state the monster is in currently, as a string, for the purpose of validating and comparing.
              * 
              * @return String of letters that represents the current state of the monster entity.
              */
