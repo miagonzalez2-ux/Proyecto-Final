@@ -1,7 +1,7 @@
 #include "MediumMode.h"
 
 namespace medium {
-    Medium::Medium() : easy::Easy() { //defaulting the number of turns for medium game mode
+    Medium::Medium() : easy::Easy() { //defaulting the number of turns for medium game mode, validating it does not go below 5
         maxTurn2 = maxTurn1 - 5;
         if (maxTurn2 < 5)
             maxTurn2 = 5;
