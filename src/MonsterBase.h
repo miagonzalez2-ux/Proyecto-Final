@@ -127,7 +127,7 @@ namespace monsterB {
              * 
              * This function returns the information regarding the monster entity, such as its name, HP, ATK, and amount of Cores, as strings.
              * 
-             * @return String of letters that represents the current state of the monster entity.
+             * @return String of letters that represents the monster's components.
              */
             std::string tostring() const {
                 return "Monster-> {Name: " + name + ", "
