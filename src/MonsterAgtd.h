@@ -41,7 +41,7 @@ namespace monsterA {
              * 
              * This function double the amount of ATK damage the player takes.
              * 
-             * @param baseP type variable, representing the player entity and its components.
+             * @param player baseP type variable, representing the player entity and its components.
              */
             void ultimate(playerB::baseP& player);
             /**
@@ -50,7 +50,7 @@ namespace monsterA {
              * This function manages how the monster will behave during its turn, where there is a 50% chance it will either
              * use ultimate (double ATK damage) or shield (defends itself) once HP is below 15.
              * 
-             * @param baseP type variable, representing the player entity and its components.
+             * @param player baseP type variable, representing the player entity and its components.
              */
             void takeTurn(playerB::baseP& player) override;
             /**
