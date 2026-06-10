@@ -77,7 +77,7 @@ namespace monsterB {
              * 
              * This function allows the user to get the drops of the monster entity.
              * 
-             * @return Integer that represents the HP of the monster entity.
+             * @return Drops variable that represents the drops of the monster entity.
              */
             drops::Drops getDrops() const {return drop;}
             /**
