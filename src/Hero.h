@@ -59,7 +59,7 @@ namespace hero {
             /**
              * @brief Function that dictates how player uses charge against monster.
              * 
-             * This function double the amount of ATK damage the monster takes, validating if 
+             * This function doubles the amount of ATK damage the monster takes, validating if 
              * it can be used based off of stamina amount (has to be >3) and if charge hasn't been used already during battle.
              * 
              * @param monster baseM type variable, representing the monster entity and its components.
